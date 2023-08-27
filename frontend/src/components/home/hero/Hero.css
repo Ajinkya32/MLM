@@ -1,0 +1,82 @@
+.hero {
+  background-image: url("../../../assets/background.jpg");
+
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+  padding-right: 50px;
+  color: #fff;
+}
+.hero #heading h3 {
+  color: #fff;
+}
+.hero #heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.primary-btn {
+  cursor: pointer;
+  z-index: 200;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    background-image: url("../../../assets/mobile.jpg");
+  }
+  .margin {
+    height: 40vh;
+  }
+  .hero {
+    background-position: right;
+    padding-top: 40%;
+
+    height: 80vh;
+  }
+  .hero .row {
+    width: 100%;
+  }
+  .hero .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .margin {
+    height: 40vh;
+  }
+  .hero {
+    background-position: 0%;
+    padding-top: 50%;
+    height: 80vh;
+    /* background-attachment: unset; */
+    padding-right: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .hero .row {
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+  }
+  .hero #heading {
+    text-align: center;
+  }
+  #heading h1 {
+    font-size: 40px;
+  }
+  .hero .row > p {
+    text-align: center;
+  }
+}

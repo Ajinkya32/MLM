@@ -1,0 +1,29 @@
+http://16.170.205.101/
+
+
+
+ubuntu
+
+username: root
+ubuntu
+password : Nand@321Kishore
+
+cd /etc/nginx/sites-available
+
+pm2 list
+
+pm2 restart MLM
+
+pm2 reload app_name
+
+pm2 stop app_name
+
+pm2 delete app_name
+
+sudo systemctl reload nginx
+
+systemctl restart nginx
+
+systemctl status nginx
+
+28 = 9

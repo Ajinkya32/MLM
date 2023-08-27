@@ -1,0 +1,58 @@
+.genealogy {
+  flex: 5;
+  overflow: scroll;
+
+  height: 70vh;
+}
+
+.zoomButtons {
+  width: 30px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+.genealogyButtons-h2 {
+  position: fixed;
+}
+
+.genealogyButtons {
+  position: fixed;
+  margin-top: 70px;
+  z-index: 100;
+}
+
+@media screen and (max-width: 1024px) {
+  .genealogyButtons-h2 {
+    position: absolute;
+    margin-top: 0px;
+  }
+
+  .genealogyButtons {
+    position: absolute;
+    margin-top: 70px;
+    z-index: 100;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .genealogyButtons-h2 {
+    position: absolute;
+    margin-top: 0px;
+  }
+
+  .genealogyButtons {
+    position: absolute;
+    margin-top: 70px;
+    z-index: 100;
+  }
+}

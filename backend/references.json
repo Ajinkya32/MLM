@@ -1,0 +1,397 @@
+[
+  {
+    "_id": {
+      "$oid": "63b6ade964403dbcecac21de"
+    },
+    "memberName": "admin",
+    "memberId": "63ae693661f64e97aac21231",
+    "referedByMemberId": "",
+    "level": 1
+  },
+  {
+    "_id": {
+      "$oid": "641c898bd5f94512bb991317"
+    },
+    "memberName": "Test User 1",
+    "memberId": "641c898bd5f94512bb991312",
+    "referedByMemberId": "63ae693661f64e97aac21231",
+    "level": 1,
+    "branch": "branchA"
+  },
+  {
+    "_id": {
+      "$oid": "641c89abd5f94512bb99132a"
+    },
+    "memberName": "Test User 2",
+    "memberId": "641c89abd5f94512bb991325",
+    "referedByMemberId": "63ae693661f64e97aac21231",
+    "level": 1,
+    "branch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "641c89c4d5f94512bb99133d"
+    },
+    "memberName": "Test User 3",
+    "memberId": "641c89c4d5f94512bb991338",
+    "referedByMemberId": "63ae693661f64e97aac21231",
+    "level": 1,
+    "branch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "641e6c52ea634519e8bcbbba"
+    },
+    "memberName": "Test User 1.1",
+    "memberId": "641e6c52ea634519e8bcbbb5",
+    "referedByMemberId": "641c898bd5f94512bb991312",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchA"
+  },
+  {
+    "_id": {
+      "$oid": "641e6c66ea634519e8bcbbcd"
+    },
+    "memberName": "Test User 1.2",
+    "memberId": "641e6c66ea634519e8bcbbc8",
+
+    "referedByMemberId": "641c898bd5f94512bb991312",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchA"
+  },
+  {
+    "_id": {
+      "$oid": "641e6c83ea634519e8bcbbeb"
+    },
+    "memberName": "Test User 2.1",
+    "memberId": "641e6c83ea634519e8bcbbe6",
+    "referedByMemberId": "641c89abd5f94512bb991325",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "641e6c97ea634519e8bcbbfe"
+    },
+    "memberName": "Test User 2.2",
+    "memberId": "641e6c97ea634519e8bcbbf9",
+    "referedByMemberId": "641c89abd5f94512bb991325",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "641e6ca7ea634519e8bcbc11"
+    },
+    "memberName": "Test User 2.3",
+    "memberId": "641e6ca7ea634519e8bcbc0c",
+    "referedByMemberId": "641c89abd5f94512bb991325",
+    "level": 1,
+    "branch": "branchC",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "641e72b8ea634519e8bcbc70"
+    },
+    "memberName": "Test User 1.1.1",
+    "memberId": "641e72b8ea634519e8bcbc6b",
+    "referedByMemberId": "641e6c52ea634519e8bcbbb5",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchA"
+  },
+  {
+    "_id": {
+      "$oid": "6421fb033bbf081d62beea4d"
+    },
+    "memberName": "Test User 3.1",
+    "memberId": "6421fb033bbf081d62beea48",
+    "referedByMemberId": "641c89c4d5f94512bb991338",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6421fb193bbf081d62beea62"
+    },
+    "memberName": "Test User 3.2",
+    "memberId": "6421fb193bbf081d62beea5d",
+    "referedByMemberId": "641c89c4d5f94512bb991338",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6421fb2f3bbf081d62beea77"
+    },
+    "memberName": "Test User 3.3",
+    "memberId": "6421fb2f3bbf081d62beea72",
+    "referedByMemberId": "641c89c4d5f94512bb991338",
+    "level": 1,
+    "branch": "branchC",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6421fb473bbf081d62beea8c"
+    },
+    "memberName": "Test User 3.3.1",
+    "memberId": "6421fb463bbf081d62beea87",
+    "referedByMemberId": "6421fb2f3bbf081d62beea72",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchC"
+  },
+
+  {
+    "_id": {
+      "$oid": "642200395703ed3e548ba137"
+    },
+    "memberName": "Test User 3.3.2",
+    "memberId": "642200395703ed3e548ba132",
+    "referedByMemberId": "6421fb2f3bbf081d62beea72",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6422004e5703ed3e548ba14c"
+    },
+    "memberName": "Test User 3.3.3",
+    "memberId": "6422004e5703ed3e548ba147",
+    "referedByMemberId": "6421fb2f3bbf081d62beea72",
+    "level": 1,
+    "branch": "branchC",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "64220313ee6de1b02b0936ab"
+    },
+    "memberName": "Test User 3.3.3.1",
+    "memberId": "64220313ee6de1b02b0936a6",
+    "referedByMemberId": "6422004e5703ed3e548ba147",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6422032bee6de1b02b0936c0"
+    },
+    "memberName": "Test User 3.3.3.2",
+    "memberId": "6422032bee6de1b02b0936bb",
+    "referedByMemberId": "6422004e5703ed3e548ba147",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6422033fee6de1b02b0936d5"
+    },
+    "memberName": "Test User 3.3.3.3",
+    "memberId": "6422033fee6de1b02b0936d0",
+    "referedByMemberId": "6422004e5703ed3e548ba147",
+    "level": 1,
+    "branch": "branchC",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6422036bee6de1b02b0936fb"
+    },
+    "memberName": "Test User 3.3.2.1",
+    "memberId": "6422036bee6de1b02b0936f6",
+    "referedByMemberId": "642200395703ed3e548ba132",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "64220380ee6de1b02b093710"
+    },
+    "memberName": "Test User 3.3.2.2",
+    "memberId": "64220380ee6de1b02b09370b",
+    "referedByMemberId": "642200395703ed3e548ba132",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "64220393ee6de1b02b093725"
+    },
+    "memberName": "Test User 3.3.2.3",
+    "memberId": "64220393ee6de1b02b093720",
+    "referedByMemberId": "642200395703ed3e548ba132",
+    "level": 1,
+    "branch": "branchC",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "64228e629e7562a690a11274"
+    },
+    "memberName": "Test User 3.3.3.2.1",
+    "memberId": "64228e629e7562a690a1126f",
+    "referedByMemberId": "6422032bee6de1b02b0936bb",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "6422923932867682bc8437a2"
+    },
+    "memberName": "Test User 3.3.3.2.2",
+    "memberId": "6422923932867682bc84379d",
+    "referedByMemberId": "6422032bee6de1b02b0936bb",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "6422924e32867682bc8437b7"
+    },
+    "memberName": "Test User 3.3.3.2.3",
+    "memberId": "6422924e32867682bc8437b2",
+    "referedByMemberId": "6422032bee6de1b02b0936bb",
+    "level": 1,
+    "branch": "branchC",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "6422934439cfab65f725e3f7"
+    },
+    "memberName": "Test User 3.3.3.3.1",
+    "memberId": "6422934439cfab65f725e3f2",
+    "referedByMemberId": "6422033fee6de1b02b0936d0",
+    "referencesMemberId": [],
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6422935b39cfab65f725e40c"
+    },
+    "memberName": "Test User 3.3.3.3.2",
+    "memberId": "6422935b39cfab65f725e407",
+    "referedByMemberId": "6422033fee6de1b02b0936d0",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6422936d39cfab65f725e421"
+    },
+    "memberName": "Test User 3.3.3.3.3",
+    "memberId": "6422936d39cfab65f725e41c",
+    "referedByMemberId": "6422033fee6de1b02b0936d0",
+    "level": 1,
+    "branch": "branchC",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "642301759f8125e9951ed49b"
+    },
+    "memberName": "Test User 3.3.3.3.3.1",
+    "memberId": "642301759f8125e9951ed496",
+    "referedByMemberId": "6422936d39cfab65f725e41c",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6423035903eb6e2af0305d2c"
+    },
+    "memberName": "Test User 3.3.3.3.3.2",
+    "memberId": "6423035903eb6e2af0305d27",
+    "referedByMemberId": "6422936d39cfab65f725e41c",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "6423036f03eb6e2af0305d41"
+    },
+    "memberName": "Test User 3.3.3.3.3.3",
+    "memberId": "6423036f03eb6e2af0305d3c",
+    "referedByMemberId": "6422936d39cfab65f725e41c",
+    "level": 1,
+    "branch": "branchC",
+    "parentBranch": "branchC"
+  },
+  {
+    "_id": {
+      "$oid": "642304189a2dfde4d7b1fbd9"
+    },
+    "memberName": "Test User 3.3.3.3.2.1",
+    "memberId": "642304179a2dfde4d7b1fbd4",
+
+    "referedByMemberId": "6422935b39cfab65f725e407",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "642304830ef237c1ad9f96d7"
+    },
+    "memberName": "Test User 3.3.3.3.2.2",
+    "memberId": "642304830ef237c1ad9f96d2",
+    "referedByMemberId": "6422935b39cfab65f725e407",
+    "level": 1,
+    "branch": "branchB",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "642304980ef237c1ad9f96ec"
+    },
+    "memberName": "Test User 3.3.3.3.2.3",
+    "memberId": "642304980ef237c1ad9f96e7",
+    "referedByMemberId": "6422935b39cfab65f725e407",
+    "level": 1,
+    "branch": "branchC",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "64232157da77f4feb24bf2ad"
+    },
+    "memberName": "Test User 3.3.3.3.2.2.1",
+    "memberId": "64232156da77f4feb24bf2a8",
+    "referedByMemberId": "642304830ef237c1ad9f96d2",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchB"
+  },
+  {
+    "_id": {
+      "$oid": "642339c3bb198855ab98949d"
+    },
+    "memberName": "Test User 3.3.3.3.3.2.1",
+    "memberId": "642339c2bb198855ab989498",
+    "referedByMemberId": "6423035903eb6e2af0305d27",
+    "level": 1,
+    "branch": "branchA",
+    "parentBranch": "branchB"
+  }
+]

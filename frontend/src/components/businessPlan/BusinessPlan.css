@@ -1,0 +1,9 @@
+.businessPlanImage {
+  width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+  .nonWorkingBusinessTitle {
+    text-align: center;
+  }
+}

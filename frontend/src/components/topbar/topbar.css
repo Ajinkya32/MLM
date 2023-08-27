@@ -1,0 +1,109 @@
+.topbar {
+  width: 95%;
+  background-color: white;
+  /* position: sticky; */
+  top: 0;
+  z-index: 999;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.topbarWrapper {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard {
+  font-weight: bold;
+  font-size: 30px;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+}
+
+.topbarIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #555;
+}
+
+.topIconBadge {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.topAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.logout-button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.topBarDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+}
+
+.profilePicTopbar {
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .topBarDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topbar {
+    position: relative;
+    z-index: -1;
+    margin-bottom: 100px;
+  }
+  .topbarWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .referralCode {
+    margin-top: 20px;
+  }
+  .widgetLgTh {
+    width: 20px;
+  }
+}
